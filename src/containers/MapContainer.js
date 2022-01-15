@@ -100,7 +100,7 @@ class MapsContainer extends Component {
       location: markerLatLng,
       // radius: '30000', // Cannot be used with rankBy. Pick your poison!
       type: ['restaurant', 'cafe'], // List of types: https://developers.google.com/places/supported_types
-      query: 'ice cream',
+      query: 'restaurants',
       rankBy: mapsApi.places.RankBy.DISTANCE, // Cannot be used with radius.
     };
 
